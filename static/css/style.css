@@ -152,7 +152,8 @@ input.btn {
 }
 a.cancel {
   background: black;
-  width: 100%;
+  width: 25%;
+  height: 20%;
   color: white;
   border-radius: 5px;
   border: 0;
