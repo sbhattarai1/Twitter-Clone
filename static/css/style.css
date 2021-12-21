@@ -104,7 +104,9 @@ POST
 }
 input.btn {
   background: deepskyblue;
-  width: 100%;
+  width: 25%;
+  position: relative;
+  left: 75%;
 }
 .home_logo img {
   width: 10%;
