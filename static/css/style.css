@@ -150,7 +150,7 @@ input.btn {
   margin-bottom: 10px;
   padding: 10px;
 }
-.cancel {
+.cancel a {
   background: black;
   width: 100%;
   color: white;
