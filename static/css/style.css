@@ -8,7 +8,6 @@ body {
 
 .content {
   max-width: 600px;
-  height: 100%;
   margin: 0 auto;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -150,13 +149,17 @@ input.btn {
   margin-bottom: 10px;
   padding: 10px;
 }
-a.cancel {
+button.cancel {
   background: black;
   width: 25%;
-  height: 20%;
   color: white;
   border-radius: 5px;
-  border: 0;
+  position: relative;
+  left: 20%;
+}
+button a {
+  text-decoration: none;
+  color: white;
 }
 @media screen and (max-width: 500px) {
   .posts li .name_body .name {
